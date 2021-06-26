@@ -28,12 +28,17 @@ function Footer() {
                 <a
                   href="https://www.linkedin.com/in/aditya-singh-8430771a8/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   LINKEDIN
                 </a>
               </div>
               <div className="github">
-                <a href="https://github.com/XenoCod" target="_blank">
+                <a
+                  href="https://github.com/XenoCod"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   GITHUB
                 </a>
               </div>

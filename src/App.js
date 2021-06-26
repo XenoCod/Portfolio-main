@@ -21,7 +21,7 @@ function App() {
       <Navbar />
       {routes.map(({ path, Component }) => (
         <Route key={path} exact path={path}>
-          {path == "/projects" ? (
+          {path === "/projects" ? (
             <>
               <ProjectHeader />
               <Project />
