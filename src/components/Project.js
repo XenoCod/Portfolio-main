@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import p1 from "../assets/p1.png";
 import p2 from "../assets/p2.png";
 import p3 from "../assets/p3.png";
@@ -7,8 +7,13 @@ import {
   ProjectContainer,
   ProjectSection,
 } from "../styles/components/ProjectStyles";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Project() {
+  useEffect(() => {
+    Aos.init({ duration: 800 });
+  });
   return (
     <div>
       <ProjectContainer>
@@ -17,7 +22,7 @@ function Project() {
         </div>
         <ProjectSection>
           <div className="projects">
-            <div className="projects-summary">
+            <div data-aos="zoom-out-up" className="projects-summary">
               <div className="projects-title">
                 Netflix <span className="sub-topic"> clone</span>{" "}
                 <img
@@ -34,7 +39,7 @@ function Project() {
               </div>
             </div>
 
-            <div className="projects-summary">
+            <div data-aos="zoom-out-up" className="projects-summary">
               <div className="projects-title">
                 <img
                   src={p2}
@@ -48,7 +53,7 @@ function Project() {
               </div>
             </div>
 
-            <div className="projects-summary">
+            <div data-aos="zoom-out-up" className="projects-summary">
               <div className="projects-title">
                 <img
                   src={p3}
@@ -62,7 +67,7 @@ function Project() {
               </div>
             </div>
 
-            <div className="projects-summary">
+            <div data-aos="zoom-out-up" className="projects-summary">
               <div className="projects-title">
                 <img
                   src={p4}

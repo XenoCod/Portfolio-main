@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AboutContainer, AboutSection } from "../styles/components/AboutStyle";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 800 });
+  });
   return (
-    <div>
+    <div data-aos="fade-up">
       <AboutContainer>
         <AboutSection>
           <div className="about">
@@ -12,10 +17,10 @@ function About() {
             </div>
 
             <div className="about-info">
-              <div className="about-info-left">
+              <div data-aos="fade-left" className="about-info-left">
                 TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH.
               </div>
-              <div className="about-info-right">
+              <div data-aos="fade-right" className="about-info-right">
                 I am an aspiring developer looking to put his skills to the
                 test. I am self taught, highly motivated, with great
                 problem-solving skills and attention to detail. I have a passion

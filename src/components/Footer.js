@@ -1,33 +1,46 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FooterSection,
   FooterContainer,
   Copyright,
 } from "../styles/components/FooterStyle";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Footer() {
+  useEffect(() => {
+    Aos.init({ duration: 700 });
+  });
   return (
     <div>
       <FooterContainer>
         <FooterSection>
-          <div className="title">
+          <div data-aos="fade-up" className="title">
             Let's create the flexible website for your business.
           </div>
           <div className="address">
-            <div className="state">
+            <div data-aos="fade-right" className="state">
               <span>Odisha,India</span>
             </div>
-            <div className="phone" style={{ cursor: "alias" }}>
+            <div
+              data-aos="fade-up"
+              className="phone"
+              style={{ cursor: "alias" }}
+            >
               <span>7008945231</span>
             </div>
-            <div className="email" style={{ cursor: "pointer" }}>
+            <div
+              data-aos="fade-left"
+              className="email"
+              style={{ cursor: "pointer" }}
+            >
               <span>adityakrsingh1999@gmail.com</span>
             </div>
           </div>
           <div className="social">
             <div className="social-title">CONNECT WITH ME</div>
             <div className="social-links">
-              <div className="LinkedIn">
+              <div data-aos="fade-right" className="LinkedIn">
                 <a
                   href="https://www.linkedin.com/in/aditya-singh-8430771a8/"
                   target="_blank"
@@ -36,7 +49,7 @@ function Footer() {
                   LINKEDIN
                 </a>
               </div>
-              <div className="github">
+              <div data-aos="fade-left" className="github">
                 <a
                   href="https://github.com/XenoCod"
                   target="_blank"

@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   SkillsContainer,
   SkillsSection,
 } from "../styles/components/SkiilsStyles";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Skiils() {
+  useEffect(() => {
+    Aos.init({ duration: 800 });
+  });
   return (
     <div>
       <SkillsContainer>
         <SkillsSection>
-          <div className="skills-title">
+          <div data-aos="fade-up" className="skills-title">
             Building friendly web interface layout with my tools
           </div>
 
@@ -22,7 +27,7 @@ function Skiils() {
                   <span>FRONT-END</span>
                 </div>
 
-                <div className="skill-list">
+                <div data-aos="fade-up" className="skill-list">
                   <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -45,7 +50,11 @@ function Skiils() {
                   <span>BACK-END</span>
                 </div>
 
-                <div className="skill-list">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  className="skill-list"
+                >
                   <ul>
                     <li>JAVA</li>
                     <li>PYTHON</li>
@@ -69,7 +78,11 @@ function Skiils() {
                   <span>VALUABLES</span>
                 </div>
 
-                <div className="skill-list">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  className="skill-list"
+                >
                   <ul>
                     <li>GIT</li>
                     <li>MONGO DB</li>

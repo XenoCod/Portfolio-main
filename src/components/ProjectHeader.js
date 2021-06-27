@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   ProjectHeaderSection,
   ProjectHeaderContainer,
@@ -7,14 +7,21 @@ import { Sidebar } from "../styles/components/HeaderStyles";
 import Github from "@material-ui/icons/GitHub";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import Navbar from "./Navbar";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function ProjectHeader() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  });
   return (
     <div>
       <Navbar />
       <ProjectHeaderContainer>
         <ProjectHeaderSection>
-          <div className="title">PROJECTS</div>
+          <div data-aos="fade-up" className="title">
+            PROJECTS
+          </div>
           <Sidebar>
             <div className="socials">
               <Github

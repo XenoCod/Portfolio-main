@@ -1,19 +1,24 @@
 import Github from "@material-ui/icons/GitHub";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import Typewriter from "typewriter-effect";
-import React from "react";
+import React, { useEffect } from "react";
 import {
   HeaderSection,
   HeaderContainer,
   Sidebar,
 } from "../styles/components/HeaderStyles";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Header() {
+  useEffect(() => {
+    Aos.init({ duration: 1200 });
+  });
   return (
     <div>
       <HeaderContainer>
         <HeaderSection>
-          <div className="title">
+          <div data-aos="zoom-in-right" className="title">
             <div className="intro">
               <div className="first">
                 I<span className="white">'</span>m
