@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 function About() {
   useEffect(() => {
-    Aos.init({ duration: 800 });
+    Aos.init({ duration: 900 });
   });
   return (
     <div data-aos="fade-up">

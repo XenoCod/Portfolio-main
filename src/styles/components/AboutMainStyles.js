@@ -5,6 +5,7 @@ export const AboutMeContainer = styled.div`
   /* height: 100vh; */
   width: 100vw;
   position: relative;
+  height: fit-content;
 `;
 export const AboutMeHeader = styled.div`
   height: 100vh;
@@ -82,7 +83,7 @@ export const AboutMeHeader = styled.div`
 `;
 
 export const AboutMeSection = styled.div`
-  height: 100%;
+  height: fit-content;
   width: 100%;
   background: #fff;
   color: black;
@@ -94,7 +95,7 @@ export const AboutMeSection = styled.div`
   position: relative;
 
   > .intro {
-    height: 80vh;
+    /* height: 80vh; */
     width: 70vw;
     /* border: 1px solid red; */
     /* position: relative; */
@@ -120,7 +121,38 @@ export const AboutMeSection = styled.div`
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50vw;
+    margin: auto;
+    @media only screen and (max-width: 700px) {
+      margin: 0;
+      font-size: 0.9rem;
+      line-height: 25px;
+      width: 80vw;
+    }
+    span {
+      position: relative;
+      &:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 5px;
+        display: block;
+        right: 0;
+        background: #01f7b6;
+        /* margin-top: 1px; */
+        transition: 0.4s ease;
+      }
+
+      &:hover {
+        &:after {
+          width: 100%;
+          left: 0;
+          background: $black;
+        }
+      }
+    }
   }
 
   > .intro > .main-title {
@@ -128,7 +160,7 @@ export const AboutMeSection = styled.div`
     font-size: 60px;
     line-height: 72px;
     font-weight: 800;
-    width: 42vw;
+    width: 32vw;
     position: relative;
     @media only screen and (max-width: 700px) {
       font-size: 2rem;

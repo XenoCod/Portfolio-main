@@ -88,6 +88,7 @@ export const ProjectSection = styled.div`
   position: relative;
   cursor: pointer;
  
+ 
 
   
   }
@@ -126,7 +127,7 @@ export const ProjectSection = styled.div`
       justify-content:space-between;
       margin-top: 70px;
       
-      height: 100vh;
+      height: 100%;
     }
 
    
@@ -201,6 +202,7 @@ export const ProjectSection = styled.div`
       margin-bottom: 100px;
       margin-top: 60px;
       width: 100vw;
+      
     }
     
 

@@ -40,7 +40,7 @@ function Footer() {
           <div className="social">
             <div className="social-title">CONNECT WITH ME</div>
             <div className="social-links">
-              <div data-aos="fade-right" className="LinkedIn">
+              <div className="LinkedIn">
                 <a
                   href="https://www.linkedin.com/in/aditya-singh-8430771a8/"
                   target="_blank"
@@ -49,7 +49,7 @@ function Footer() {
                   LINKEDIN
                 </a>
               </div>
-              <div data-aos="fade-left" className="github">
+              <div className="github">
                 <a
                   href="https://github.com/XenoCod"
                   target="_blank"

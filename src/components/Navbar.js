@@ -4,23 +4,24 @@ import {
   NavbarContainer,
 } from "../styles/components/NavbarStyles";
 import Hamburger from "@material-ui/icons/Menu";
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  const history = useHistory();
   return (
     <div>
       <NavbarContainer>
         <NavbarSection>
-          <div className="about" onClick={() => history.push("/about")}>
-            ABOUT ME
+          <div className="about">
+            <Link to="/about" style={{ textDecoration: "none", color: "#fff" }}>
+              ABOUT ME
+            </Link>
           </div>
-          <div className="menu">
-            <Hamburger
-              style={{ color: "01F7B6", fontSize: "40px" }}
-              onClick={() => history.push("/menu")}
-            />
-          </div>
+
+          <Link to="/menu">
+            <div className="menu">
+              <Hamburger style={{ color: "01F7B6", fontSize: "40px" }} />
+            </div>
+          </Link>
         </NavbarSection>
       </NavbarContainer>
     </div>

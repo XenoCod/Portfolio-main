@@ -42,6 +42,33 @@ export const HeaderSection = styled.div`
   align-items: flex-start;
 
   flex-direction: column;
+  .resume {
+    margin-top: 20px;
+  }
+
+  .resume > button {
+    background-color: #000;
+
+    padding: 12px 30px;
+    border: 0;
+    border: 2px solid #333;
+    border-radius: 20px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+
+    &:hover {
+      box-shadow: 0 4px 8px #02efb0;
+    }
+    @media only screen and (max-width: 700px) {
+      padding: 5px 10px;
+      padding: 5px;
+      font-size: 10px;
+      margin-top: 10%;
+    }
+  }
 
   @media only screen and (max-width: 700px) {
     height: 70%;

@@ -2,6 +2,7 @@ import Github from "@material-ui/icons/GitHub";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import Typewriter from "typewriter-effect";
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import {
   HeaderSection,
   HeaderContainer,
@@ -46,6 +47,20 @@ function Header() {
                 }}
               />
             </div>
+          </div>
+          <div className="resume">
+            <button>
+              <Link
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1Xc5vsOwdQOZNq4CmwS-X1gPvqAtK91SW/view?usp=sharing"
+                  )
+                }
+                style={{ textDecoration: "none", color: "#fff" }}
+              >
+                View Resume
+              </Link>
+            </button>
           </div>
         </HeaderSection>
         <Sidebar>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   AboutMeHeader,
   AboutMeContainer,
@@ -7,13 +7,20 @@ import {
 import { Sidebar } from "../styles/components/HeaderStyles";
 import Github from "@material-ui/icons/GitHub";
 import LinkedIn from "@material-ui/icons/LinkedIn";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function AboutMain() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  });
   return (
     <div>
       <AboutMeContainer>
         <AboutMeHeader>
-          <div className="title">ABOUT ME</div>
+          <div data-aos="zoom-out" className="title">
+            ABOUT ME
+          </div>
           <Sidebar>
             <div className="socials">
               <Github
@@ -40,31 +47,109 @@ function AboutMain() {
           </Sidebar>
         </AboutMeHeader>
         <AboutMeSection>
+          <div className="myImg">
+            <img src="" alt="" />
+          </div>
           <div className="intro">
-            <div className="desc">SMOOTH INTERFACE INTERACTION</div>
-            <div className="main-title">
+            <div data-aos="fade-up" className="desc">
+              Some background ⏪
+            </div>
+            <div data-aos="fade-up" className="main-title">
               Reach me and let's have coffee together !!
             </div>
-            <div className="my-info">
+            <div data-aos="fade-up" className="my-info">
               <p>
-                My name is Aditya Kumar Singh and I'm a full stack developer,
+                I'm{" "}
+                <span>
+                  <b>Aditya kumar Singh</b>
+                </span>{" "}
+                & I'm currently working as a Full Stack Developer. I have
                 completed my{" "}
                 <b>
                   <em>Bachelor of Technology in Electrical & Electronics</em>
                 </b>{" "}
-                <u style={{ color: "#2EC4B6" }}> from KIIT University.</u>
+                from
+                <u
+                  style={{ color: "#2EC4B6", cursor: "pointer" }}
+                  onClick={() => window.open("https://kiit.ac.in/")}
+                >
+                  {" "}
+                  KIIT University.
+                </u>
               </p>
+              <br />
               <p>
-                I'm a full stack developer with more than 3 years of experience
-                working on website and single page web apps. My go-to
-                programming language is <em>JavaScript</em>. When it comes to
-                programming I enjoy the challenging stuff and always try to find
-                the right solution for a problem.
+                I have been developing websites & single page web apps since
+                past 2 years. My go-to programming language is{" "}
+                <b>
+                  <em>
+                    <span>JavaScript</span>
+                  </em>
+                </b>
+                . When it comes to programming I mostly enjoy coding in{" "}
+                <span>
+                  <b>Java</b>
+                </span>{" "}
+                &{" "}
+                <span>
+                  <b>Python</b>
+                </span>{" "}
+                and always try to find the right solution for a problem. Well, I
+                like to experiment as much as I can, on food and on my life. My
+                body is made up of HTML & CSS, which is literally me! This
+                defines me as a Full Stack Developer (Front End, Back End,
+                Middleware, Whatever...)
               </p>
-              <p>I have also done developed few Andriod apps in Java.</p>
+              <br />
               <p>
-                I'm a sports enthusiast and like to play & watch sports. I've
-                always been a fan of Football & Manchester United.
+                I am a highly motivated, passionate, hard-core web developer
+                with diverse experience in developing web apps ranging from{" "}
+                <b>cute layouts, payment gateways, clones</b> and much more. I
+                have a real passion for development and using my design
+                experience I leverage my knowledge of typographic relationships
+                and design patterns to create aesthetically pleasing but also
+                very viable digital experiences. I find it incredibly rewarding
+                to write not only clean code but to witness and be apart of the
+                solution bringing a design into development..
+              </p>
+              <br />
+              <p>
+                Coming to other interest, I'm huge Sports enthusiast Football &
+                <span style={{ color: "red" }}> Manchester United</span> to be
+                precise. I had actively pursued football in school and college,
+                made great friends because of it and had fun playing alongside
+                so many amazing people.
+              </p>
+              <br />
+              <p>
+                So that's me. Hope I didn't bored you. If you liked it, connect
+                with me on{" "}
+                <span
+                  style={{
+                    color: "#0020A8",
+                    fontWeight: "600",
+                    cursor: "pointer",
+                  }}
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/in/aditya-singh-8430771a8/"
+                    )
+                  }
+                >
+                  LinkedIn
+                </span>{" "}
+                & follow my{" "}
+                <span
+                  style={{
+                    color: "#000000",
+                    fontWeight: "600",
+                    cursor: "pointer",
+                  }}
+                  onClick={() => window.open("https://github.com/XenoCod")}
+                >
+                  Github
+                </span>
+                . Let's not be strangers anymore. 😊
               </p>
             </div>
           </div>

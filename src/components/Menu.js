@@ -1,19 +1,27 @@
 import React from "react";
 import { MenuContainer, MenuSection } from "../styles/components/MenuStyles";
-import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 function Menu() {
-  const history = useHistory();
   return (
     <div>
       <Navbar />
       <MenuContainer>
         <MenuSection>
           <div className="menu">
-            <span onClick={() => history.push("/")}>HOME</span>
-            <span onClick={() => history.push("/projects")}>PROJECTS</span>{" "}
-            <span onClick={() => history.push("/about")}>ABOUT</span>
+            <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
+              <span>HOME</span>
+            </Link>
+            <Link
+              to="/projects"
+              style={{ textDecoration: "none", color: "#fff" }}
+            >
+              <span>PROJECTS</span>
+            </Link>
+            <Link to="/about" style={{ textDecoration: "none", color: "#fff" }}>
+              <span>ABOUT</span>
+            </Link>
           </div>
           <div className="info">LET'S CREATE USEFUL A WEBSITE FOR YOU!</div>
         </MenuSection>
