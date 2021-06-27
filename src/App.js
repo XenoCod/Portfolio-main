@@ -1,7 +1,7 @@
 import "./App.css";
 import Menu from "./components/Menu";
 import Home from "./components/Home";
-import { Route, useLocation } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
 import ProjectHeader from "./components/ProjectHeader";
@@ -31,8 +31,6 @@ function App() {
       setIsPageLoaded(true);
     }
   }, [isLoaded]);
-
-  const location = useLocation();
 
   return (
     <div className="App">
