@@ -5,8 +5,9 @@ export const ProjectContainer = styled.div`
 
   width: 100vw;
   position: relative;
+
   @media only screen and (max-width: 700px) {
-    height: 180vh;
+    height: 170vh;
   }
   .button-container {
     margin-top: 20px;
@@ -19,6 +20,9 @@ export const ProjectContainer = styled.div`
     /* margin-right: auto; */
     /* top: 0; */
     left: 49%;
+    @media only screen and (max-width: 700px) {
+      bottom: 1%;
+    }
 
     /* text-align: center; */
   }
@@ -31,6 +35,9 @@ export const ProjectContainer = styled.div`
     color: #333;
     outline: 0;
     transition: 0.2s;
+    @media only screen and (max-width: 700px) {
+      padding: 5px 10px;
+    }
   }
 
   .button-container > .btn-shadow {
@@ -38,6 +45,9 @@ export const ProjectContainer = styled.div`
     color: #fff;
     font-size: 20px;
     font-family: Poppins, sans-serif;
+    @media only screen and (max-width: 700px) {
+      font-size: 10px;
+    }
   }
 
   .button-container > .btn-shadow:hover {
@@ -73,10 +83,11 @@ export const ProjectContainer = styled.div`
 
 export const ProjectSection = styled.div`
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
  
   position: relative;
   cursor: pointer;
+ 
 
   
   }
@@ -108,12 +119,13 @@ export const ProjectSection = styled.div`
     
     @media only screen and (max-width: 700px){
       position: absolute;
-      top:10px;
+      top:5%;
       width:100vw;
       margin: 0px;
       justify-content:space-between;
-      margin-top: 100px;
-      height: 100%;
+      margin-top: 70px;
+      
+      height: 100vh;
     }
 
    
@@ -131,9 +143,11 @@ export const ProjectSection = styled.div`
     position: relative;
     width:40vw;
     z-index:100;
+    padding-left: 20px;
 
     @media only screen and (max-width: 700px){
       font-size: 2rem;
+      line-height: 50px;
     }
 
     .btn-fill:hover{
@@ -167,7 +181,10 @@ export const ProjectSection = styled.div`
 
       
     @media only screen and (max-width: 700px){
-      height: 30vh;
+      height: 20vh;
+      width: 70vw;
+      
+      
      
     }
      
@@ -196,8 +213,8 @@ export const ProjectSection = styled.div`
     line-height: 80px;
     
     @media only screen and (max-width: 700px){
-      font-size: 3rem;
-      line-height: 26px;
+      font-size: 1rem;
+      line-height: 36px;
     }
   }
 

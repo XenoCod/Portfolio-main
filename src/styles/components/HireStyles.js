@@ -8,6 +8,9 @@ export const HireMeContainer = styled.div`
   /* justify-content: center; */
   background-color: #02efb0;
   position: relative;
+  @media only screen and (max-width: 700px) {
+    height: 60vh;
+  }
 `;
 
 export const HireMeSection = styled.div`

@@ -112,6 +112,9 @@ display: flex;
 align-items: center;
 flex-direction: column;
 justify-content: space-around;
+@media only screen and (max-width: 700px) {
+     padding-left: 10px;
+    }
 
 
 > .socials {

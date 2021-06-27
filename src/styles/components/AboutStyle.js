@@ -9,6 +9,10 @@ export const AboutContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding-top: 20px;
+  @media only screen and (max-width: 700px) {
+    height: fit-content;
+    padding-bottom: 70px;
+  }
 `;
 
 export const AboutSection = styled.div`

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from "../../assets/demo2.jpg";
+import bg from "../../assets/demo1.jpg";
 
 export const AboutMeContainer = styled.div`
   /* height: 100vh; */
@@ -58,8 +58,9 @@ export const AboutMeHeader = styled.div`
     @media only screen and (max-width: 700px) {
       font-size: 4rem;
       line-height: 60px;
-      top: 30%;
+      top: 40%;
       width: 90vw;
+      width: 50vw;
     }
   }
 

@@ -8,6 +8,9 @@ export const FooterContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 700px) {
+    height: 70vh;
+  }
   a {
     position: relative;
     &:after {
@@ -98,7 +101,6 @@ export const FooterSection = styled.div`
     color: white;
     @media only screen and (max-width: 700px) {
       font-size: 1rem;
-      margin-right: 10px;
     }
   }
 
@@ -111,5 +113,23 @@ export const FooterSection = styled.div`
     @media only screen and (max-width: 700px) {
       font-size: 1rem;
     }
+  }
+
+  > .social > .social-links > .LinkedIn {
+    @media only screen and (max-width: 700px) {
+      margin-right: 20px;
+    }
+  }
+`;
+
+export const Copyright = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #02efb0;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  @media only screen and (max-width: 700px) {
+    font-size: 0.6rem;
   }
 `;
