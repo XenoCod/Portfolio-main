@@ -6,7 +6,6 @@ import {
 import { useHistory } from "react-router-dom";
 
 function Hire() {
-  const history = useHistory();
   return (
     <div>
       <HireMeContainer>
