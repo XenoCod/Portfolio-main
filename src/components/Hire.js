@@ -3,7 +3,6 @@ import {
   HireMeContainer,
   HireMeSection,
 } from "../styles/components/HireStyles";
-import { useHistory } from "react-router-dom";
 
 function Hire() {
   return (
