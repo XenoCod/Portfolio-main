@@ -10,7 +10,7 @@ function Skiils() {
       <SkillsContainer>
         <SkillsSection>
           <div className="skills-title">
-            Creation of friendly web interface layout
+            Building friendly web interface layout with my tools
           </div>
 
           <div className="main">
@@ -19,7 +19,7 @@ function Skiils() {
                 <div className="skill-title">
                   <span className="num">01</span>
                   <span className="line"></span>
-                  <span>WORK FLOW PROCESS</span>
+                  <span>FRONT-END</span>
                 </div>
 
                 <div className="skill-list">
@@ -28,9 +28,9 @@ function Skiils() {
                     <li>CSS</li>
                     <li>JAVASCRIPT</li>
                     <li>REACT</li>
-                    <li>NEXT.JS</li>
-                    <li>JAVA</li>
-                    <li>PYTHON</li>
+                    <li>NEXT JS</li>
+                    <li>TAILWIND CSS</li>
+                    <li>BOOTSTRAP</li>
                   </ul>
                 </div>
               </div>
@@ -42,18 +42,18 @@ function Skiils() {
                 <div className="skill-title">
                   <span className="num">02</span>
                   <span className="line"></span>
-                  <span>WORK FLOW PROCESS</span>
+                  <span>BACK-END</span>
                 </div>
 
                 <div className="skill-list">
                   <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                    <li>REACT</li>
-                    <li>NEXT.JS</li>
                     <li>JAVA</li>
                     <li>PYTHON</li>
+                    <li>C#</li>
+                    <li>NODE JS</li>
+                    <li>EXPRESS JS</li>
+                    <li>FIREBASE</li>
+                    <li>.NET FRAMEWORK</li>
                   </ul>
                 </div>
               </div>
@@ -66,18 +66,18 @@ function Skiils() {
                 <div className="skill-title">
                   <span className="num">03</span>
                   <span className="line"></span>
-                  <span>WORK FLOW PROCESS</span>
+                  <span>VALUABLES</span>
                 </div>
 
                 <div className="skill-list">
                   <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                    <li>REACT</li>
-                    <li>NEXT.JS</li>
-                    <li>JAVA</li>
-                    <li>PYTHON</li>
+                    <li>GIT</li>
+                    <li>MONGO DB</li>
+                    <li>MYSQL</li>
+                    <li>MS AZURE</li>
+                    <li>AWS</li>
+                    <li>POSTMAN</li>
+                    <li>ADOBE XD</li>
                   </ul>
                 </div>
               </div>

@@ -76,6 +76,8 @@ export const HireMeSection = styled.div`
     line-height: 21px;
     font-weight: 600;
     color: #0e0e0e;
+    cursor: pointer;
+    z-index: 1000;
   }
 
   > .start > .line {

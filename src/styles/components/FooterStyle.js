@@ -11,7 +11,8 @@ export const FooterContainer = styled.div`
   @media only screen and (max-width: 700px) {
     height: 70vh;
   }
-  a {
+  a,
+  span {
     position: relative;
     &:after {
       position: absolute;

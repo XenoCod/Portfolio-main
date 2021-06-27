@@ -3,8 +3,10 @@ import {
   HireMeContainer,
   HireMeSection,
 } from "../styles/components/HireStyles";
+import { useHistory } from "react-router-dom";
 
 function Hire() {
+  const history = useHistory();
   return (
     <div>
       <HireMeContainer>
@@ -17,7 +19,12 @@ function Hire() {
             DO YOU HAVE A PROJECT OPPORTUNITY, OR ARE YOU JUST A LOOKING TO GET
             CREATIVE SOLUTIONS?
           </div>
-          <div className="start">
+          <div
+            className="start"
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/aditya-singh-8430771a8/")
+            }
+          >
             <span className="line"></span>
             GET STARTED.
           </div>

@@ -58,7 +58,7 @@ export const ProjectHeaderSection = styled.div`
     -webkit-text-stroke-color: white;
     @media only screen and (max-width: 700px) {
       font-size: 4rem;
-      padding-left: 40px;
+      padding-left: 23px;
     }
   }
 

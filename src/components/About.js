@@ -8,7 +8,7 @@ function About() {
         <AboutSection>
           <div className="about">
             <div className="about-title" id="about">
-              <span>MAIN MISSON</span>
+              <span>ABOUT ME</span>
             </div>
 
             <div className="about-info">

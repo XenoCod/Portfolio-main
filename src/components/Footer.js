@@ -14,12 +14,14 @@ function Footer() {
             Let's create the flexible website for your business.
           </div>
           <div className="address">
-            <div className="state">Odisha,India</div>
+            <div className="state">
+              <span>Odisha,India</span>
+            </div>
             <div className="phone" style={{ cursor: "alias" }}>
-              7008945231
+              <span>7008945231</span>
             </div>
             <div className="email" style={{ cursor: "pointer" }}>
-              adityakrsingh1999@gmail.com
+              <span>adityakrsingh1999@gmail.com</span>
             </div>
           </div>
           <div className="social">

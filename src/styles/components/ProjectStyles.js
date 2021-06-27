@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
-  height: 360vh;
+  height: 350vh;
 
   width: 100vw;
   position: relative;
@@ -15,13 +15,14 @@ export const ProjectContainer = styled.div`
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 3%;
+    bottom: 1%;
     /* margin-left: auto; */
     /* margin-right: auto; */
     /* top: 0; */
-    left: 49%;
+    left: 45%;
     @media only screen and (max-width: 700px) {
       bottom: 1%;
+      left: 30%;
     }
 
     /* text-align: center; */
@@ -65,7 +66,6 @@ export const ProjectContainer = styled.div`
     top: 140px;
     left: 19%;
     transition: all 0.4s;
-
     :hover {
       text-decoration: underline;
       color: #01f7b6;
@@ -116,6 +116,7 @@ export const ProjectSection = styled.div`
     flex-direction:column;
     justify-content:space-around;
     align-self:center;
+    margin-top: 350px;
     
     @media only screen and (max-width: 700px){
       position: absolute;
@@ -201,6 +202,8 @@ export const ProjectSection = styled.div`
       margin-top: 60px;
       width: 100vw;
     }
+    
+
    
     
   }

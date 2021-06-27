@@ -12,7 +12,9 @@ function Project() {
   return (
     <div>
       <ProjectContainer>
-        <div className="project-title">Selected works and showcases</div>
+        <div className="project-title">
+          <span>Selected works and showcases</span>
+        </div>
         <ProjectSection>
           <div className="projects">
             <div className="projects-summary">
@@ -86,7 +88,7 @@ function Project() {
               )
             }
           >
-            More
+            Source Code & More
           </button>
         </div>
       </ProjectContainer>

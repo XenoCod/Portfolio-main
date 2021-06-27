@@ -8,6 +8,29 @@ export const SkillsContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: fit-content;
+  span,
+  li {
+    position: relative;
+    &:after {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 4px;
+      display: block;
+      right: 0;
+      background: #01f7b6;
+      /* margin-top: 2px; */
+      transition: 0.4s ease;
+    }
+
+    &:hover {
+      &:after {
+        width: 100%;
+        left: 0;
+        background: $black;
+      }
+    }
+  }
 `;
 
 export const SkillsSection = styled.div`
