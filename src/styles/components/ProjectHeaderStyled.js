@@ -10,14 +10,14 @@ export const ProjectHeaderContainer = styled.div`
   /* position: absolute; */
   /* position: relative; */
   animation: animColor 5s linear infinite;
-  animation-duration: 5s;
+  /* animation-duration: 5s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-fill-mode: none;
   animation-play-state: running;
-  animation-name: animColor;
+  animation-name: animColor; */
 
   @keyframes animColor {
     0% {
