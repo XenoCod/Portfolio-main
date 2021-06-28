@@ -50,7 +50,7 @@ export const HireMeSection = styled.div`
     @media only screen and (max-width: 700px) {
       font-size: 2rem;
       line-height: 30px;
-      width: 90vw;
+      width: 86vw;
     }
   }
 
@@ -105,5 +105,8 @@ export const HireMeSection = styled.div`
     width: 10vw;
     height: fit-content;
     left: 0;
+    @media only screen and (max-width: 700px) {
+      font-size: 40vw;
+    }
   }
 `;

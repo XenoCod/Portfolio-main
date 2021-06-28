@@ -20,9 +20,12 @@ export const ProjectContainer = styled.div`
     /* margin-right: auto; */
     /* top: 0; */
     left: 45%;
+    margin: auto;
     @media only screen and (max-width: 700px) {
       bottom: 1%;
-      left: 30%;
+      /* left: 30%; */
+
+      margin: auto;
     }
 
     /* text-align: center; */
