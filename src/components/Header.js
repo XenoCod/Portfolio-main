@@ -17,7 +17,7 @@ function Header() {
   });
   return (
     <div>
-      <HeaderContainer>
+      <HeaderContainer data-aos="zoom-out">
         <HeaderSection>
           <div data-aos="zoom-in-right" className="title">
             <div className="intro">

@@ -7,7 +7,7 @@ function Menu() {
   return (
     <div>
       <Navbar />
-      <MenuContainer>
+      <MenuContainer data-aos="zoom-out">
         <MenuSection>
           <div className="menu">
             <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
