@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import { useState, useEffect } from "react";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import { Loading } from "./styles/components/LoadingStyle";
+import ReactGA from "react-ga";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -31,6 +32,11 @@ function App() {
       setIsPageLoaded(true);
     }
   }, [isLoaded]);
+
+  useEffect(() => {
+    ReactGA.initialize("UA-200768417-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  });
 
   return (
     <div className="App">

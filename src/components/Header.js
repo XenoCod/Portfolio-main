@@ -10,6 +10,17 @@ import {
 } from "../styles/components/HeaderStyles";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ReactGA from "react-ga";
+
+const ViewResume = () => {
+  window.open(
+    "https://drive.google.com/file/d/1Xc5vsOwdQOZNq4CmwS-X1gPvqAtK91SW/view?usp=sharing"
+  );
+  ReactGA.event({
+    category: "Button",
+    action: "Show Resume",
+  });
+};
 
 function Header() {
   useEffect(() => {
@@ -51,11 +62,7 @@ function Header() {
           <div className="resume">
             <button>
               <Link
-                onClick={() =>
-                  window.open(
-                    "https://drive.google.com/file/d/1Xc5vsOwdQOZNq4CmwS-X1gPvqAtK91SW/view?usp=sharing"
-                  )
-                }
+                onClick={ViewResume}
                 style={{ textDecoration: "none", color: "#fff" }}
               >
                 View Resume
