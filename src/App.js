@@ -11,6 +11,7 @@ import { useState, useEffect } from "react";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import { Loading } from "./styles/components/LoadingStyle";
 import ReactGA from "react-ga";
+import LazyLoad from "react-lazyload";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -48,20 +49,20 @@ function App() {
         </Loading>
       ) : (
         <>
-          <Navbar />
           {routes.map(({ path, Component }) => (
             <Route key={path} exact path={path}>
+              <Navbar />
               {path === "/projects" ? (
-                <>
+                <LazyLoad key={path} placeholder={<Loading />}>
                   <ProjectHeader />
                   <Project />
                   <Footer />
-                </>
+                </LazyLoad>
               ) : (
-                <>
+                <LazyLoad key={path} placeholder={<Loading />}>
                   <Component />
                   <Footer />
-                </>
+                </LazyLoad>
               )}
             </Route>
           ))}

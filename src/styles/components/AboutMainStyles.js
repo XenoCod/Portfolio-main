@@ -129,7 +129,8 @@ export const AboutMeSection = styled.div`
       margin: 0;
       font-size: 0.9rem;
       line-height: 25px;
-      width: 80vw;
+      width: 70vw;
+      margin: auto;
     }
     span {
       position: relative;

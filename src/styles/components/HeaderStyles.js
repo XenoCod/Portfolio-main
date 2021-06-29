@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import bg from "../../assets/about.jpg";
+
 import bg from "../../assets/demo6.jpg";
 
 export const HeaderContainer = styled.div`
@@ -14,6 +14,7 @@ export const HeaderContainer = styled.div`
   justify-content: center;
   align-items: center;
   animation: animColor 5s linear infinite;
+
   /* animation-duration: 5s;
   animation-timing-function: linear;
   animation-delay: 0s;
