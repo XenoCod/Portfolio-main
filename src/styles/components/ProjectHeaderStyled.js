@@ -60,16 +60,6 @@ export const ProjectHeaderSection = styled.div`
       font-size: 4rem;
       padding-left: 23px;
     }
-    font-variation-settings: "wght" 900, "ital" 1;
-
-    transition: all 0.5s;
-    &:hover {
-      font-variation-settings: "wght" 100, "ital" 0;
-      text-shadow: none;
-      text-shadow: 10px 10px 0px #07bccc, 15px 15px 0px #e601c0,
-        20px 20px 0px #e9019a, 25px 25px 0px #f40468, 45px 45px 10px #482896;
-      -webkit-text-stroke-width: 0;
-    }
   }
 
   .white {
