@@ -14,12 +14,27 @@ import ReactGA from "react-ga";
 
 const ViewResume = () => {
   window.open(
-    "https://drive.google.com/file/d/1Xc5vsOwdQOZNq4CmwS-X1gPvqAtK91SW/view?usp=sharing"
+    "https://drive.google.com/file/d/1x6xBsTnqBvmehkUhho7LSlsZSyUtVB0u/view?usp=sharing"
   );
   ReactGA.event({
     category: "Button",
     action: "Show Resume",
   });
+};
+
+const options = {
+  strings: [
+    "< Web Developer />",
+    "{ Software Developer }",
+    "Freelancer",
+    "UI Designer",
+  ],
+  autoStart: true,
+  loop: true,
+  cursor: "",
+  pauseFor: 1500,
+  deleteSpeed: 75,
+  delay: 75,
 };
 
 function Header() {
@@ -41,22 +56,7 @@ function Header() {
               </div>
             </div>
             <div className="info">
-              <Typewriter
-                options={{
-                  strings: [
-                    "< Web Developer />",
-                    "{ Software Developer }",
-                    "Freelancer",
-                    "UI Designer",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                  cursor: "",
-                  pauseFor: 1500,
-                  deleteSpeed: 75,
-                  delay: 75,
-                }}
-              />
+              <Typewriter options={options} />
             </div>
           </div>
           <div className="resume">
