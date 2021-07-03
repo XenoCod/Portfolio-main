@@ -16,7 +16,7 @@ function AboutMain() {
   });
   return (
     <div>
-      <AboutMeContainer data-aos="zoom-out">
+      <AboutMeContainer>
         <AboutMeHeader>
           <div data-aos="zoom-out" className="title">
             ABOUT ME

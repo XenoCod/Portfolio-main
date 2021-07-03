@@ -43,9 +43,9 @@ function Header() {
   });
   return (
     <div>
-      <HeaderContainer data-aos="zoom-out">
+      <HeaderContainer>
         <HeaderSection>
-          <div data-aos="zoom-in-right" className="title">
+          <div data-aos="fade-up" className="title">
             <div className="intro">
               <div className="first">
                 I<span className="white">'</span>m
@@ -55,9 +55,9 @@ function Header() {
                 <span>Singh</span>
               </div>
             </div>
-            <div className="info">
+            {/* <div className="info">
               <Typewriter options={options} />
-            </div>
+            </div> */}
           </div>
           <div className="resume">
             <button>

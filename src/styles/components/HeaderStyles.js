@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import bg from "../../assets/demo6.jpg";
+import bg from "../../assets/demo2.jpg";
 
 export const HeaderContainer = styled.div`
   height: 100vh;
@@ -48,12 +48,13 @@ export const HeaderSection = styled.div`
   }
 
   .resume > button {
-    background-color: #000;
+    background-color: transparent;
 
     padding: 12px 30px;
-    border: 0;
-    border: 2px solid #333;
-    border-radius: 20px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+
     font-family: Poppins, sans-serif;
     color: #fff;
     font-size: 20px;

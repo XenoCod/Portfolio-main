@@ -17,7 +17,7 @@ function ProjectHeader() {
   return (
     <div>
       <Navbar />
-      <ProjectHeaderContainer data-aos="zoom-out">
+      <ProjectHeaderContainer>
         <ProjectHeaderSection>
           <div data-aos="fade-up" className="title">
             PROJECTS

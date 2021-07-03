@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HireMeContainer = styled.div`
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   display: flex;
   /* align-self: center; */
@@ -97,7 +97,7 @@ export const HireMeSection = styled.div`
     letter-spacing: 5px;
     font-size: 18vw;
     opacity: 0.08;
-    top: 10%;
+    top: 4%;
     transform: translateX(6%);
     transform: translateY(-10%);
 
