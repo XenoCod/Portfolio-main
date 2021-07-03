@@ -1,6 +1,6 @@
 import Github from "@material-ui/icons/GitHub";
 import LinkedIn from "@material-ui/icons/LinkedIn";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -22,20 +22,20 @@ const ViewResume = () => {
   });
 };
 
-const options = {
-  strings: [
-    "< Web Developer />",
-    "{ Software Developer }",
-    "Freelancer",
-    "UI Designer",
-  ],
-  autoStart: true,
-  loop: true,
-  cursor: "",
-  pauseFor: 1500,
-  deleteSpeed: 75,
-  delay: 75,
-};
+// const options = {
+//   strings: [
+//     "< Web Developer />",
+//     "{ Software Developer }",
+//     "Freelancer",
+//     "UI Designer",
+//   ],
+//   autoStart: true,
+//   loop: true,
+//   cursor: "",
+//   pauseFor: 1500,
+//   deleteSpeed: 75,
+//   delay: 75,
+// };
 
 function Header() {
   useEffect(() => {
