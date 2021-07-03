@@ -89,15 +89,27 @@ export const HeaderSection = styled.div`
 
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: whitesmoke;
+    transition: text-shadow 0.5s ease-in-out;
 
     @media only screen and (max-width: 700px) {
       font-size: 3rem;
       line-height: 5rem;
     }
+    &:hover {
+      text-shadow: 0 2px 2px #ff0000, -2px 5px 0 #ff7f00, -4px 10px 0 #ffff00,
+        -8px 15px 0 #00ff00, -12px 20px 0 #0000ff, -16px 25px 0 #4b0082,
+        -20px 30px 0 #9400d3;
+    }
   }
 
   .white {
     color: white;
+    /* &:hover {
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: whitesmoke;
+      color: transparent;
+      
+    } */
   }
   .title > .intro {
     @media only screen and (max-width: 700px) {
@@ -106,6 +118,9 @@ export const HeaderSection = styled.div`
     > .last {
       display: flex;
       flex-direction: column;
+      /* &:hover {
+        color: white;
+      } */
     }
   }
 

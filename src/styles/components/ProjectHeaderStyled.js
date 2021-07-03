@@ -53,12 +53,17 @@ export const ProjectHeaderSection = styled.div`
     margin-right: auto;
     right: 0;
     bottom: 0;
-
+    transition: text-shadow 0.5s ease-in-out;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
     @media only screen and (max-width: 700px) {
       font-size: 4rem;
       padding-left: 23px;
+    }
+    &:hover {
+      text-shadow: 0 2px 2px #ff0000, -2px 5px 0 #ff7f00, -4px 10px 0 #ffff00,
+        -8px 15px 0 #00ff00, -12px 20px 0 #0000ff, -16px 25px 0 #4b0082,
+        -20px 30px 0 #9400d3;
     }
   }
 

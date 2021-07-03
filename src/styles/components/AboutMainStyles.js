@@ -56,6 +56,12 @@ export const AboutMeHeader = styled.div`
 
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
+    transition: text-shadow 0.5s ease-in-out;
+    &:hover {
+      text-shadow: 0 2px 2px #ff0000, -2px 5px 0 #ff7f00, -4px 10px 0 #ffff00,
+        -8px 15px 0 #00ff00, -12px 20px 0 #0000ff, -16px 25px 0 #4b0082,
+        -20px 30px 0 #9400d3;
+    }
     @media only screen and (max-width: 700px) {
       font-size: 4rem;
       line-height: 60px;
