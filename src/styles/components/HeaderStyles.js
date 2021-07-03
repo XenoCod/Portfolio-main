@@ -15,15 +15,6 @@ export const HeaderContainer = styled.div`
   align-items: center;
   animation: animColor 5s linear infinite;
 
-  /* animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-play-state: running; */
-  /* animation-name: animColor; */
-
   @keyframes animColor {
     0% {
       filter: hue-rotate(0deg);
