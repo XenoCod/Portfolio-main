@@ -7,10 +7,10 @@ export const HeaderContainer = styled.div`
   width: 100vw;
 
   position: relative;
-  background: url(${bg}) center no-repeat;
-  background-size: cover;
+  /* background: url(${bg}) center no-repeat; */
+  /* background-size: cover; */
   display: flex;
-  object-fit: contain;
+  /* object-fit: contain; */
   justify-content: center;
   align-items: center;
   animation: animColor 5s linear infinite;
@@ -26,6 +26,13 @@ export const HeaderContainer = styled.div`
   }
 `;
 
+export const HeaderImg = styled.img`
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  object-fit: cover;
+`;
+
 export const HeaderSection = styled.div`
   height: 80%;
   width: 75vw;
@@ -36,6 +43,7 @@ export const HeaderSection = styled.div`
   flex-direction: column;
   .resume {
     margin-top: 20px;
+    z-index: 1000;
   }
 
   .resume > button {

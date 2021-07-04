@@ -8,7 +8,7 @@ function Menu() {
     <div>
       <Navbar />
       <MenuContainer>
-        <MenuSection>
+        <MenuSection data-aos="fade-up">
           <div className="menu">
             <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
               <span>HOME</span>

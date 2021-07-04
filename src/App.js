@@ -12,12 +12,22 @@ import PacmanLoader from "react-spinners/PacmanLoader";
 import { Loading } from "./styles/components/LoadingStyle";
 import ReactGA from "react-ga";
 import LazyLoad from "react-lazyload";
+import Netflix from "./components/Netflix";
+import Groupify from "./components/Groupify";
+import Channel from "./components/Channel";
+import Facebook from "./components/Facebook";
+import Amazon from "./components/Amazon";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
   { path: "/about", name: "About Me", Component: AboutMain },
   { path: "/projects", name: "Projects", Component: Project },
   { path: "/menu", name: "Menu", Component: Menu },
+  { path: "/netflix", name: "Netflix", Component: Netflix },
+  { path: "/groupify", name: "Groupify", Component: Groupify },
+  { path: "/channel", name: "Channel", Component: Channel },
+  { path: "/facebook", name: "Facebook", Component: Facebook },
+  { path: "/amazon", name: "Amazon", Component: Amazon },
 ];
 
 function App() {

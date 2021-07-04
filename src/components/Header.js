@@ -7,10 +7,12 @@ import {
   HeaderSection,
   HeaderContainer,
   Sidebar,
+  HeaderImg,
 } from "../styles/components/HeaderStyles";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ReactGA from "react-ga";
+import bg from "../assets/demo2.jpg";
 
 const ViewResume = () => {
   window.open(
@@ -22,21 +24,6 @@ const ViewResume = () => {
   });
 };
 
-// const options = {
-//   strings: [
-//     "< Web Developer />",
-//     "{ Software Developer }",
-//     "Freelancer",
-//     "UI Designer",
-//   ],
-//   autoStart: true,
-//   loop: true,
-//   cursor: "",
-//   pauseFor: 1500,
-//   deleteSpeed: 75,
-//   delay: 75,
-// };
-
 function Header() {
   useEffect(() => {
     Aos.init({ duration: 1200 });
@@ -44,6 +31,7 @@ function Header() {
   return (
     <div>
       <HeaderContainer>
+        <HeaderImg src={bg} />
         <HeaderSection>
           <div data-aos="fade-up" className="title">
             <div className="intro">

@@ -3,12 +3,14 @@ import {
   ProjectHeaderSection,
   ProjectHeaderContainer,
 } from "../styles/components/ProjectHeaderStyled";
-import { Sidebar } from "../styles/components/HeaderStyles";
+import { Sidebar, HeaderImg } from "../styles/components/HeaderStyles";
 import Github from "@material-ui/icons/GitHub";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import Navbar from "./Navbar";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+import bg from "../assets/main.jpg";
 
 function ProjectHeader() {
   useEffect(() => {
@@ -18,6 +20,7 @@ function ProjectHeader() {
     <div>
       <Navbar />
       <ProjectHeaderContainer>
+        <HeaderImg src={bg} loading="lazy" />
         <ProjectHeaderSection>
           <div data-aos="fade-up" className="title">
             PROJECTS
