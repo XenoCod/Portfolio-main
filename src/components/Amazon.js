@@ -35,13 +35,28 @@ function Amazon() {
               <Mini>DESC</Mini>
               Amazon redesign with TailWind CSS, complete E-Commerce
               functionality including Payment Processing (Stripe API) and User
-              Authentication (Firebase)
+              Authentication (Firebase).
+              <br />
+              <Mini>
+                Try out the Payment feature using demo card details below:
+              </Mini>
+              <br />
+              (Fill the shipping information with random details and use the
+              Card details mentioned below)
+              <br />
+              <b>Card number</b>: 4242 4242 4242 4242
+              <br />
+              <b>MM/YY</b>: 04 / 24
+              <br />
+              <b>CVC</b>: 424
             </Desc>
           </Inner>
 
           <Inline>
             <Mini>Tools Used</Mini>
-            <Desc>React, NextJS, React-Router, Firebase, Tailwind CSS</Desc>
+            <Desc>
+              NextJS, FakeStore API, Stripe API, Firebase, Tailwind CSS
+            </Desc>
 
             <Mini>Visit</Mini>
             <Desc>

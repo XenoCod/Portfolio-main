@@ -158,7 +158,7 @@ export const AboutMeSection = styled.div`
     font-size: 60px;
     line-height: 72px;
     font-weight: 800;
-    width: 32vw;
+    width: 35vw;
     position: relative;
     @media only screen and (max-width: 700px) {
       font-size: 2rem;

@@ -114,7 +114,8 @@ function AboutMain() {
               </p>
               <br />
               <p>
-                Coming to other interest, I'm huge Sports enthusiast Football &
+                Coming to other interests, I'm huge FIFA fan. I love to play &
+                watch Football &
                 <span style={{ color: "red" }}> Manchester United</span> to be
                 precise. I had actively pursued football in school and college,
                 made great friends because of it and had fun playing alongside
