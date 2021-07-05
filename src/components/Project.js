@@ -123,7 +123,7 @@ function Project() {
           <ProjectDiv data-aos="zoom-out-up">
             <Left>
               <ProjectName onClick={() => history.push("/flimzilla")}>
-                FlimZilla<span className="sub-topic">Streamimg website</span>
+                FilmZilla<span className="sub-topic">Streamimg website</span>
                 <ProjectBtn>
                   {" "}
                   <span>Learn More</span>

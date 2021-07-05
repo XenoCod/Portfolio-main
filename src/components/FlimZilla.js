@@ -26,7 +26,7 @@ function Facebook() {
         <HeaderImg src={p1} loading="lazy" />
       </Supper>
       <Container data-aos="fade-up">
-        <Title>FlimZiila</Title>
+        <Title>FilmZiila</Title>
         <Inner>
           <Mini>Streaming website</Mini>
           <Desc>
