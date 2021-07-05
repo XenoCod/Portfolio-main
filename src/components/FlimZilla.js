@@ -9,43 +9,43 @@ import {
   Inline,
 } from "../styles/components/DisplayStyles";
 import { HeaderImg } from "../styles/components/HeaderStyles";
-
-import p1 from "../assets/Project4/p1.png";
-import p2 from "../assets/Project4/p2.png";
-import p3 from "../assets/Project4/p3.png";
+import p1 from "../assets/Project6/p1.png";
+import p2 from "../assets/Project6/p2.png";
+import p3 from "../assets/Project6/p3.png";
+import p4 from "../assets/Project6/p4.png";
 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { BannerContainer, BannerSection } from "../styles/components/Banner";
 
 // import Banner from "../styles/components/Banner";
-
-function Groupify() {
+function Facebook() {
   return (
     <>
       <Supper>
         <HeaderImg src={p1} loading="lazy" />
       </Supper>
       <Container data-aos="fade-up">
-        <Title>Groupify</Title>
+        <Title>FlimZiila</Title>
         <Inner>
-          <Mini>Group chat App</Mini>
+          <Mini>Streaming website</Mini>
           <Desc>
-            <Mini>DESC</Mini>A group chat that enables users to form & chat
-            within groups with the help of EmailID.
+            <Mini>DESC</Mini>
+            Responsive movie poster website with custom animations. Movie
+            posters pulled with the help of TMDB api.
           </Desc>
         </Inner>
 
         <Inline>
           <Mini>Tools used</Mini>
-          <Desc>React, Redux, Material UI, Firebase</Desc>
+          <Desc>NextJS, TailWind CSS, TMDI api</Desc>
 
           <Mini>Visit</Mini>
           <Desc>
             <span
               style={{ cursor: "pointer" }}
               onClick={() =>
-                window.open("https://slack-x-c8c12.web.app/", "_blank")
+                window.open("https://film-zilla.vercel.app/", "_blank")
               }
             >
               Project
@@ -54,10 +54,7 @@ function Groupify() {
             <span
               style={{ cursor: "pointer" }}
               onClick={() =>
-                window.open(
-                  "https://github.com/XenoCod/Groupify-A-group-chat-application",
-                  "_blank"
-                )
+                window.open("https://github.com/XenoCod/FilmZilla", "_blank")
               }
             >
               Github
@@ -85,6 +82,9 @@ function Groupify() {
               <div>
                 <img src={p3} alt="img 3" loading="lazy" />
               </div>
+              <div>
+                <img src={p4} alt="img 4" loading="lazy" />
+              </div>
             </Carousel>
           </BannerSection>
         </BannerContainer>
@@ -93,4 +93,4 @@ function Groupify() {
   );
 }
 
-export default Groupify;
+export default Facebook;

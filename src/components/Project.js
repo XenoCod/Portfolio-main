@@ -4,6 +4,7 @@ import p2 from "../assets/Project1/p9.jpg";
 import p3 from "../assets/Project3/main.png";
 import p4 from "../assets/Project2/p1.png";
 import p5 from "../assets/Project4/p1.png";
+import p6 from "../assets/Project6/p1.png";
 
 import { useHistory } from "react-router";
 
@@ -117,22 +118,24 @@ function Project() {
             </ProjectName>
           </ProjectDiv>
 
-          {/* PROJECT 5 */}
+          {/* PROJECT 6 */}
+
+          <ProjectDiv data-aos="zoom-out-up">
+            <Left>
+              <ProjectName onClick={() => history.push("/flimzilla")}>
+                FlimZilla<span className="sub-topic">Streamimg website</span>
+                <ProjectBtn>
+                  {" "}
+                  <span>Learn More</span>
+                </ProjectBtn>
+              </ProjectName>
+            </Left>
+
+            <ProjectImgDiv>
+              <ProjectImg src={p6} loading="lazy" />
+            </ProjectImgDiv>
+          </ProjectDiv>
         </ProjectSection>
-        {/* 
-        <div class="button-container">
-          <button
-            class="btn btn-shadow"
-            onClick={() =>
-              window.open(
-                "https://github.com/XenoCod?tab=repositories",
-                "_blank"
-              )
-            }
-          >
-            Source Code & More
-          </button>
-        </div> */}
       </ProjectContainer>
     </div>
   );

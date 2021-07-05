@@ -22,7 +22,7 @@ function Facebook() {
   return (
     <>
       <Supper>
-        <HeaderImg src={h1} />
+        <HeaderImg src={h1} loading="lazy" />
       </Supper>
       <Container data-aos="fade-up">
         <Title>Facebook</Title>
@@ -75,15 +75,15 @@ function Facebook() {
               interval={2500}
             >
               <div>
-                <img src={p1} alt="" />
+                <img src={p1} alt="img1" loading="lazy" />
               </div>
 
               <div>
-                <img src={p2} alt="" />
+                <img src={p2} alt="img2" loading="lazy" />
               </div>
 
               <div>
-                <img src={h1} alt="" />
+                <img src={h1} alt="img3" loading="lazy" />
               </div>
             </Carousel>
           </BannerSection>

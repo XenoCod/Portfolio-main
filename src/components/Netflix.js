@@ -26,7 +26,7 @@ function Netflix() {
   return (
     <>
       <Supper>
-        <HeaderImg src={p9} />
+        <HeaderImg src={p9} loading="lazy" />
       </Supper>
       <Container data-aos="fade-up">
         <Title>Netflix Clone</Title>
@@ -79,33 +79,33 @@ function Netflix() {
               interval={2500}
             >
               <div>
-                <img src={p1} alt="" />
+                <img src={p1} alt="img 1" loading="lazy" />
               </div>
 
               <div>
-                <img src={p2} alt="" />
+                <img src={p2} alt="img 2" loading="lazy" />
               </div>
 
               <div>
-                <img src={p3} alt="" />
+                <img src={p3} alt="img 3" loading="lazy" />
               </div>
               <div>
-                <img src={p4} alt="" />
+                <img src={p4} alt="img 4" loading="lazy" />
               </div>
               <div>
-                <img src={p5} alt="" />
+                <img src={p5} alt="img 5" loading="lazy" />
               </div>
               <div>
-                <img src={p6} alt="" />
+                <img src={p6} alt="img 6" loading="lazy" />
               </div>
               <div>
-                <img src={p7} alt="" />
+                <img src={p7} alt="img 7" loading="lazy" />
               </div>
               <div>
-                <img src={p8} alt="" />
+                <img src={p8} alt="img 8" loading="lazy" />
               </div>
               <div>
-                <img src={p9} alt="" />
+                <img src={p9} alt="img 9" loading="lazy" />
               </div>
             </Carousel>
           </BannerSection>

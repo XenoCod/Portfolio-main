@@ -88,6 +88,9 @@ export const ProjectDiv = styled.div`
   cursor: pointer;
   @media only screen and (max-width: 700px) {
     flex-direction: column;
+    width: 100vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 `;
 
@@ -104,13 +107,13 @@ export const ProjectName = styled.div`
   flex-direction: column;
   position: relative;
   width: 40vw;
-  z-index: 100;
+  z-index: 1000;
   transform: translateX(20%);
 
   @media only screen and (max-width: 700px) {
-    font-size: 2rem;
+    font-size: 2.5rem;
     /* line-height: 150px; */
-
+    margin-top: -60px;
     height: fit-content;
   }
   .sub-topic {
@@ -124,6 +127,7 @@ export const ProjectName = styled.div`
     @media only screen and (max-width: 700px) {
       font-size: 1rem;
       line-height: 36px;
+      width: 50vw;
     }
   }
 `;
@@ -131,11 +135,9 @@ export const ProjectName = styled.div`
 export const ProjectImgDiv = styled.div`
   height: 50vh;
   width: 50vw;
-  &:hover {
-    scale: 0.5;
-  }
+
   @media only screen and (max-width: 700px) {
-    height: 20vh;
+    height: 50vh;
     width: 100vw;
   }
 `;
@@ -143,10 +145,15 @@ export const ProjectImg = styled.img`
   width: inherit;
   height: inherit;
   object-fit: contain;
+  transition: all 450ms;
+  &:hover {
+    transform: scale(1.09);
+  }
 `;
 
 export const Left = styled.div`
   transform: translateX(28%);
+  z-index: 1000;
   @media only screen and (max-width: 700px) {
     transform: translateY(0%);
   }

@@ -17,6 +17,7 @@ import Groupify from "./components/Groupify";
 import Channel from "./components/Channel";
 import Facebook from "./components/Facebook";
 import Amazon from "./components/Amazon";
+import FlimZilla from "./components/FlimZilla";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -28,6 +29,7 @@ const routes = [
   { path: "/channel", name: "Channel", Component: Channel },
   { path: "/facebook", name: "Facebook", Component: Facebook },
   { path: "/amazon", name: "Amazon", Component: Amazon },
+  { path: "/flimzilla", name: "FlimZilla", Component: FlimZilla },
 ];
 
 function App() {

@@ -21,7 +21,7 @@ function Channel() {
   return (
     <>
       <Supper>
-        <HeaderImg src={p1} />
+        <HeaderImg src={p1} loading="lazy" />
       </Supper>
       <Container data-aos="fade-up">
         <Title>Channel</Title>
@@ -69,18 +69,18 @@ function Channel() {
               interval={2500}
             >
               <div>
-                <img src={p1} alt="" />
+                <img src={p1} alt="img1" loading="lazy" />
               </div>
 
               <div>
-                <img src={p2} alt="" />
+                <img src={p2} alt="img2" loading="lazy" />
               </div>
 
               <div>
-                <img src={p3} alt="" />
+                <img src={p3} alt="img3" loading="lazy" />
               </div>
               <div>
-                <img src={p4} alt="" />
+                <img src={p4} alt="img 4" loading="lazy" />
               </div>
             </Carousel>
           </BannerSection>

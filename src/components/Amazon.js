@@ -96,24 +96,24 @@ function Amazon() {
                 interval={2500}
               >
                 <div>
-                  <img src={p1} alt="" />
+                  <img src={p1} alt="img1" loading="lazy" />
                 </div>
 
                 <div>
-                  <img src={p2} alt="" />
+                  <img src={p2} alt="img2" loading="lazy" />
                 </div>
 
                 <div>
-                  <img src={p3} alt="" />
+                  <img src={p3} alt="img3" loading="lazy" />
                 </div>
                 <div>
-                  <img src={p4} alt="" />
+                  <img src={p4} alt="img 4" loading="lazy" />
                 </div>
                 <div>
-                  <img src={p5} alt="" />
+                  <img src={p5} alt="img 5" loading="lazy" />
                 </div>
                 <div>
-                  <img src={p6} alt="" />
+                  <img src={p6} alt="img 6" loading="lazy" />
                 </div>
               </Carousel>
             </BannerSection>
