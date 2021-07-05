@@ -36,7 +36,7 @@ function Project() {
           {/* PROJECT 1 */}
           <ProjectDiv data-aos="zoom-out-up">
             <Left>
-              <ProjectImgDiv>
+              <ProjectImgDiv onClick={() => history.push("/amazon")}>
                 <ProjectImg src={p1} loading="lazy" />
               </ProjectImgDiv>
             </Left>
@@ -62,7 +62,7 @@ function Project() {
                 </ProjectBtn>
               </ProjectName>
             </Left>
-            <ProjectImgDiv>
+            <ProjectImgDiv onClick={() => history.push("/netflix")}>
               <ProjectImg src={p2} loading="lazy" />
             </ProjectImgDiv>
           </ProjectDiv>
@@ -70,7 +70,7 @@ function Project() {
           {/* PROJECT 3 */}
           <ProjectDiv data-aos="zoom-out-up">
             <Left>
-              <ProjectImgDiv>
+              <ProjectImgDiv onClick={() => history.push("/facebook")}>
                 <ProjectImg src={p3} loading="lazy" />
               </ProjectImgDiv>
             </Left>
@@ -97,7 +97,7 @@ function Project() {
               </ProjectName>
             </Left>
 
-            <ProjectImgDiv>
+            <ProjectImgDiv onClick={() => history.push("/channel")}>
               <ProjectImg src={p4} loading="lazy" />
             </ProjectImgDiv>
           </ProjectDiv>
@@ -105,7 +105,7 @@ function Project() {
           {/* PROJECT 5 */}
           <ProjectDiv data-aos="zoom-out-up">
             <Left>
-              <ProjectImgDiv>
+              <ProjectImgDiv onClick={() => history.push("/groupify")}>
                 <ProjectImg src={p5} loading="lazy" />
               </ProjectImgDiv>
             </Left>
@@ -131,7 +131,7 @@ function Project() {
               </ProjectName>
             </Left>
 
-            <ProjectImgDiv>
+            <ProjectImgDiv onClick={() => history.push("/flimzilla")}>
               <ProjectImg src={p6} loading="lazy" />
             </ProjectImgDiv>
           </ProjectDiv>
