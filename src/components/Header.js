@@ -70,7 +70,7 @@ function Header() {
               style={{ padding: "20", fontSize: "30", color: "white" }}
               onClick={() =>
                 window.open(
-                  "https://www.linkedin.com/in/aditya-singh-8430771a8/",
+                  "https://www.linkedin.com/in/adityasingh0007/",
                   "_blank"
                 )
               }
