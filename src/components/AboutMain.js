@@ -63,7 +63,7 @@ function AboutMain() {
                 <span>
                   <b>Aditya kumar Singh</b>
                 </span>{" "}
-                & I'm currently working as SDE 1 with Swiggy. I have
+                & I'm currently working as SDE 1 at Swiggy. I have
                 completed my{" "}
                 <b>
                   <em>Bachelor of Technology in Electrical & Electronics</em>

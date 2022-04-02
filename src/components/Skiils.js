@@ -57,8 +57,8 @@ function Skiils() {
                 >
                   <ul>
                     <li>JAVA</li>
-                    <li>PYTHON</li>
                     <li>GOLANG</li>
+                    <li>SPRING FRAMEWORK</li>
                     <li>NODE JS</li>
                     <li>EXPRESS JS</li>
                     <li>FIREBASE</li>
@@ -88,8 +88,8 @@ function Skiils() {
                     <li>DYNAMODB</li>
                     <li>MONGO DB</li>
                     <li>MYSQL</li>
-                    <li>MS AZURE</li>
                     <li>AWS</li>
+                    <li>AZURE</li>
                     <li>POSTMAN</li>
                   </ul>
                 </div>

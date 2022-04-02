@@ -21,7 +21,7 @@ function About() {
                 TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH.
               </div>
               <div data-aos="fade-right" className="about-info-right">
-                Hii, I'm currently working as SDE 1 with Swiggy, Bangalore. I am self taught, highly motivated, with great
+                Hii, I'm currently working as SDE 1 at Swiggy, Bangalore. I am self taught, highly motivated, with great
                 problem-solving skills and attention to detail. I have a passion
                 for learning new things and gaining more knowledge to master my
                 craft.

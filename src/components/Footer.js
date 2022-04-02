@@ -63,7 +63,7 @@ function Footer() {
         </FooterSection>
       </FooterContainer>
       <Copyright>
-        Made with &#10084;&#65039; by Aditya Singh. Copyright &#169; 2021
+        Made with &#10084;&#65039; by Aditya Singh. Copyright &#169; 2022
       </Copyright>
     </div>
   );
